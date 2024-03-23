@@ -1,0 +1,71 @@
+
+           border-radius: 20px 0px 20px 0px; 
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .left, .right{
+            flex-basis: 50%;
+        }
+        .left h1{
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+        .left{
+            max-width: 450px;
+            padding-left: 70px;
+        }
+        .left p{
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        button{
+            background-color: #9b59b6;
+            padding: 10px;
+            color: white;
+            outline: none;
+            border: none;
+            border-radius: 10px;
+        }
+        .right img{
+            width: 100%;
+            height: 400px;
+            padding-left: 4%;
+            padding-top: 3%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+  <nav>
+    <div class="logo">
+        High-Tack
+    </div>
+    <div class="menu">
+        <a href="#" style="color: white; background-color:#9b59b6;">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contant</a>
+        <a href="#">Features</a>
+        <a href="#">Bloge</a>
+        <a href="# " style="color: white; background-color:#9b59b6;">Info</a>
+    </div>
+  </nav>
+    <div class="container">
+        <div class="left">
+            <h1>Welcome To My Website</h1>
+            <p>with so much to see and do in iceland,
+                 it can be hard to choose an activity. 
+                Our diverse selection includes hiking. 
+                caving glacier walks. 
+                mountain climbing hunting for the northem Lights and more!</p>
+                <button>Read mode</button>
+        </div>
+        <div class="right">
+       <img src="students-learning.png">
+        </div>
+    </div>
+    </header>
+</body>
+</html>
